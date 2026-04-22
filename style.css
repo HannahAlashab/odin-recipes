@@ -1,0 +1,103 @@
+div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(244, 245, 252);
+}
+
+.hero {
+  background-image: url("imgs/bgFood.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 100vh; /* full screen height */
+}
+
+.title{
+  justify-content: center;
+  text-align: center;
+  font-family: Brush Script MT, cursive;
+  font-size: 500%;
+  color:white;
+  margin: 0;
+}
+
+.recipes-list{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  list-style: none;
+  gap: 30px;
+  font-size: 150%;
+}
+
+.recipes-title{
+  font-family: Brush Script MT, cursive;
+  font-size: 250%;
+  color:black;
+}
+
+.description{
+  color: rgb(83, 83, 98);
+}
+
+.ingredient{
+  margin-top: 50px;
+}
+
+.ingredient-list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+ul li::marker {
+  content: "» ";
+}
+
+.instructions{
+  margin-top: 50px;
+}
+
+.instructions-list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.goHome{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: darkgreen;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.content{
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: lightgray;
+}
+
+a:active {
+  color: gray;
+}
